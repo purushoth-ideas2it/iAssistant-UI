@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.App {
+    height : 100vh
+}
+
+.test {
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    box-shadow: 2px 0px 8px rgba(20, 54, 142, 0.1);
+    height: 760px;
+}
+
+.image {
+    margin-left : 2%;
+}
