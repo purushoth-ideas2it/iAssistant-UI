@@ -28,11 +28,11 @@ const Login = () => {
     });
 
     if (mockEmail === email && mockPassword === password) {
-        return <Navigate to="/home" replace />;
+        return <Navigate to="/" replace />;
     }
 
     return (
-        <div className="h-screen bg-login-background bg-cover" >
+        <div className="fixed h-screen bg-login-background bg-cover" >
             <div className="">
                 <br />
                 <h5 className="text-xl text-center font-medium text-gray-900 text-white mt-[90px] leading-loose">
